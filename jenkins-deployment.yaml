@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: jenkins
-          image: thiagolsfortunato/jenkins-kubernetes:snapshot
+          image: thiagolsfortunato/jenkins-kubernetes:1.0
           env:
             - name: JAVA_OPTS
               value: -Djenkins.install.runSetupWizard=false
